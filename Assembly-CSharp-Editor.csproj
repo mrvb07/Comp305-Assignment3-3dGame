@@ -45,14 +45,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Dice Props Pack\Editor\AssignMaterial.cs" />
+     <Compile Include="Assets\Dice Props Pack\Editor\ColliderToFit.cs" />
+     <Compile Include="Assets\Dice Props Pack\Editor\ComponentCopier.cs" />
+     <Compile Include="Assets\Dice Props Pack\Editor\TransformCopier.cs" />
      <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+     <None Include="Assets\Dice Props Pack\Shaders\Hologram_Diff_Illum_DPan.shader" />
+     <None Include="Assets\Dice Props Pack\Shaders\RampLit.shader" />
+     <None Include="Assets\Dice Props Pack\Shaders\RampBasic.shader" />
      <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
+     <None Include="Assets\Dice Props Pack\Shaders\Ramp_Diff_Cutout.shader" />
      <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+     <None Include="Assets\Dice Props Pack\Shaders\Ramp_Diff_Illum_Fres.shader" />
+     <None Include="Assets\Dice Props Pack\Shaders\RampLitOutline.shader" />
      <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
      <None Include="Assets\KajamansRoads\FileNamesDescription.txt" />
+     <None Include="Assets\Dice Props Pack\Shaders\Ramp_Diff.shader" />
+     <None Include="Assets\Dice Props Pack\Shaders\Hologram_Diff_Illum_DetailPan.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\KajamansRoads\Free\ReadMe.txt" />
+     <None Include="Assets\Dice Props Pack\Shaders\Ramp_Diff_Illum.shader" />
      <None Include="Assets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
+     <None Include="Assets\Dice Props Pack\Shaders\Ramp_Diff_Illum_Cutout.shader" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
