@@ -20,7 +20,7 @@ public class WinController : MonoBehaviour {
         if (other.gameObject.CompareTag("Player"))
         {
             this.gameController.finishRace();
-            this.gameController.TimeLeftValues = 1;
+            
         }
     }
 }

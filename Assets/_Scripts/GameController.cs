@@ -7,9 +7,7 @@ public class GameController : MonoBehaviour {
     //PRIVATE INSTANCE VARIABLES
     private int _scoreValues;
     private int _livesValues;
-    private int _timeLeft;
-    
-    
+
     //PUBLIC INSTANCE VARIABLES
     public Text ScoreLabel;
     public Text LivesLabel;
@@ -17,10 +15,13 @@ public class GameController : MonoBehaviour {
     public Text GameOverLabel;
     public Text VictoryLabel;
     public Text YourScoreLabel;
+
     public Button RestartButton;
     public Button QuitButton;
     public CarObject carObject;
     public Camera cam;
+    public float timeLeft = 5.0f;
+    public bool stop = true;
 
     public int ScoreValues
     {
@@ -32,28 +33,6 @@ public class GameController : MonoBehaviour {
         {
             this._scoreValues = value;
             this.ScoreLabel.text = "Score: " + this._scoreValues / 20;
-        }
-    }
-
-    public int TimeLeftValues
-    {
-        get
-        {
-            return _timeLeft;
-        }
-
-        set
-        {
-            _timeLeft = value;
-            
-            if (_timeLeft <= 0)
-            {
-                this._endGame();
-            }
-            else
-            {
-                this.TimeLeftLabel.text = "Time Left: " + this._timeLeft / 20;
-            }
         }
     }
     public int LivesValues
@@ -88,9 +67,16 @@ public class GameController : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-
         this.ScoreValues += 1;
-        this.TimeLeftValues -= 1;
+        timeLeft -= Time.deltaTime;
+        TimeLeftLabel.text = "Time Left:" + Mathf.Round(timeLeft);
+        if (timeLeft <= 0)
+        {
+            
+            this._endGame();
+        }
+       
+        //this.TimeLeftValues -= 1;
     }
 
     private void _init()
@@ -98,7 +84,7 @@ public class GameController : MonoBehaviour {
         this.cam.enabled = false;
         this.ScoreValues = 0;
         this.LivesValues = 10;
-        this.TimeLeftValues = 150 * 20;
+        
         this.GameOverLabel.enabled = false;
         this.VictoryLabel.enabled = false;
         this.RestartButton.gameObject.SetActive(false);
