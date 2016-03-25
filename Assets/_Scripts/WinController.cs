@@ -1,4 +1,12 @@
-﻿using UnityEngine;
+﻿/*
+    Source File Name: WinCollider
+    Author's Name: Vinay Bhardwaj
+    Last Modified By: Vinay Bhardwaj
+    Date Last Modified: 25th March 2016
+    Program Descreption:12
+*/
+
+using UnityEngine;
 using System.Collections;
 
 public class WinController : MonoBehaviour {

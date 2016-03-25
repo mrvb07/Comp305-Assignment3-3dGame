@@ -1,4 +1,12 @@
-﻿using UnityEngine;
+﻿/*
+    Source File Name: GameCollider
+    Author's Name: Vinay Bhardwaj
+    Last Modified By: Vinay Bhardwaj
+    Date Last Modified: 25th March 2016
+    Program Descreption:12
+*/
+
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
