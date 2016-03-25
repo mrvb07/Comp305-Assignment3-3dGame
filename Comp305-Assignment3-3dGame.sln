@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{50AE7900-D775-33EF-AD62-678963847298}") = "Comp305-Assignment3-3dGame", "Assembly-CSharp-firstpass.csproj", "{A3CDB739-7BA7-A352-8B5F-AE13C9984489}"
 EndProject
+Project("{50AE7900-D775-33EF-AD62-678963847298}") = "Comp305-Assignment3-3dGame", "Assembly-CSharp.csproj", "{970A36FC-CF15-2886-69A5-3405F81E2E37}"
+EndProject
 Project("{50AE7900-D775-33EF-AD62-678963847298}") = "Comp305-Assignment3-3dGame", "Assembly-CSharp-Editor.csproj", "{67F60D97-17DA-43CE-A877-B8363F323935}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{A3CDB739-7BA7-A352-8B5F-AE13C9984489}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3CDB739-7BA7-A352-8B5F-AE13C9984489}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3CDB739-7BA7-A352-8B5F-AE13C9984489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{970A36FC-CF15-2886-69A5-3405F81E2E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970A36FC-CF15-2886-69A5-3405F81E2E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{970A36FC-CF15-2886-69A5-3405F81E2E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{970A36FC-CF15-2886-69A5-3405F81E2E37}.Release|Any CPU.Build.0 = Release|Any CPU
 		{67F60D97-17DA-43CE-A877-B8363F323935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{67F60D97-17DA-43CE-A877-B8363F323935}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67F60D97-17DA-43CE-A877-B8363F323935}.Release|Any CPU.ActiveCfg = Release|Any CPU
